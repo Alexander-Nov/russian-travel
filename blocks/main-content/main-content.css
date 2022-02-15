@@ -1,0 +1,26 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+@media screen and (max-width: 1279px) {
+    .main-content {
+      max-width: 1024px;
+    }
+  }
+
+@media screen and (max-width: 1023px) {
+    .main-content {
+      max-width: 768px;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .main-content {
+      min-width: 320px;
+    }
+  }
