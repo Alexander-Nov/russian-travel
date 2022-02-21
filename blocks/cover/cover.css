@@ -1,7 +1,7 @@
 .cover {
-    /* width: 100%; */
-    width: 1184px;
     min-height: 740px;
+    height: 100%;    
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,6 +12,7 @@
     overflow: hidden;
     text-decoration: none;
     color: white;
+    box-sizing: border-box;
 }
 
 .cover::before {
@@ -36,14 +37,13 @@
 
   @media screen and (max-width: 1279px) {
     .cover {
-      max-width: 1024px;
       min-height: 640px;
+      height: calc(100vw / 1.6);
     }
   }
 
   @media screen and (max-width: 1023px) {
     .cover {
-      max-width: 768px;
       min-height: 480px;
       margin-top: 18px;
     }
@@ -51,8 +51,14 @@
 
   @media screen and (max-width: 767px) {
     .cover {
-      max-width: 320px;
-      min-height: 200px;
+      min-height: 250px;
       margin-top: 16px;
+    }
+  }
+
+  @media screen and (max-width: 399px) {
+    .cover {
+      min-width: 320px;
+      min-height: 200px;
     }
   }

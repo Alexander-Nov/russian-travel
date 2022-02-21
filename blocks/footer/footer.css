@@ -5,18 +5,23 @@
     align-items: flex-start;
     margin: 92px 0 0 0;
     padding: 0 0 24px 0;
-    width: 1184px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 1279px) {
     .footer {
-        max-width: 928px;
+        width: calc(100% - 2*48px);
+        margin-left: 48px;
+        margin-right: 48px;
     }
   }
 
   @media screen and (max-width: 1023px) {
     .footer {
-        max-width: 720px;
+        width: calc(100% - 2*24px);
+        margin-left: 24px;
+        margin-right: 24px;
         margin-top: 88px;
     }
   }
@@ -27,8 +32,8 @@
         flex-direction: column;
         justify-content: flex-start;
         flex-wrap: wrap;
-        max-width: calc(320px - 16px);
-        margin-left: calc((100% - 320px)/2 + 16px);
+        width: calc(320px - 16px);
+        margin-left: 16px;
         align-self: flex-start;
         min-height: 310px;
     }
