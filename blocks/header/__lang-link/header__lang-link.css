@@ -1,22 +1,22 @@
-.header__lang-link{
-    margin-right: 18px;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 26px;
-    transition: opacity 0.7s linear;
+.header__lang-link {
+  margin-right: 18px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  transition: opacity 0.7s linear;
 }
 
-.header__lang-link:last-of-type{
-    margin-right: 0;
+.header__lang-link:last-of-type {
+  margin-right: 0;
 }
 
 .header__lang-link:hover {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 @media screen and (max-width: 767px) {
-    .header__lang-link {
-        font-size: 18px;
-        line-height: 20px;
-    }
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
   }
+}

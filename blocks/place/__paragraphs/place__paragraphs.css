@@ -1,14 +1,14 @@
 .place__paragraphs {
-    width: 100%;
+  width: 100%;
 }
 
 
 @media screen and (max-width: 767px) {
-    .place__paragraphs {
-        min-width: 288px;
-        width: calc(100% - 2*16px);
-        margin-left: 16px;
-        margin-right: 16px;
-        justify-self: center;
-    }
+  .place__paragraphs {
+    min-width: 288px;
+    width: calc(100% - 2*16px);
+    margin-left: 16px;
+    margin-right: 16px;
+    justify-self: center;
   }
+}

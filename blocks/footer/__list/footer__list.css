@@ -1,15 +1,15 @@
 .footer__list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
 }
 
 @media screen and (max-width: 767px) {
-    .footer__list {
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
+  .footer__list {
+    flex-direction: column;
+    flex-wrap: wrap;
   }
+}
