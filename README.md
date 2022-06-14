@@ -11,5 +11,5 @@
 При организации структуры папок и файлов, а также при наименовании элементов страницы использована методология БЭМ.
 
 
-[**Ссылка на GitHub Pages**](https://alexander-nov.github.io/russian-travel/index.html)
+[**Демо страницы на GitHub Pages**](https://alexander-nov.github.io/russian-travel/index.html)
 
