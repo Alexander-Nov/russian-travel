@@ -1,6 +1,6 @@
 # Проект: Путешествие по России
 
-## 🔗 Технологии
+### ⭐️ Технологии
 ![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=HTML5)&nbsp;
 ![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=CSS3&logoColor=1572B6)&nbsp;
 ![BEM](https://img.shields.io/badge/-BEM-05122A?style=flat&logo=BEM)&nbsp;
@@ -19,6 +19,9 @@
 
 <img src="./readmefiles/travel2.gif" alt="добавление/удаление/лайк/попап" width="600">
 
+
+### 💻 Просмотр проекта
+Для просмотра достаточно клонировать репозиторий и открыть в браузере файл index.html
 
 
 [**Демо страницы на GitHub Pages**](https://alexander-nov.github.io/russian-travel/index.html)
